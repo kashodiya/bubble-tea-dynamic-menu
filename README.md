@@ -1,4 +1,4 @@
-# Bubble Tea TUI Command Runner
+# Bubble Tea Dynamic Menu
 
 A Terminal User Interface (TUI) application built with the [Bubble Tea](https://github.com/charmbracelet/bubbletea) library that allows users to select and run commands from a configuration file.
 
@@ -48,8 +48,8 @@ Each command entry must have:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd bubbletea-tui
+git clone https://github.com/kashodiya/bubble-tea-dynamic-menu.git
+cd bubble-tea-dynamic-menu
 
 # Install dependencies
 go mod tidy
