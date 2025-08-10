@@ -1,0 +1,24 @@
+{
+  "commands": [
+    {
+      "name": "List Files",
+      "description": "List files in the current directory",
+      "command": "ls -la"
+    },
+    {
+      "name": "Check Disk Space",
+      "description": "Show disk space usage",
+      "command": "df -h"
+    },
+    {
+      "name": "System Info",
+      "description": "Display system information",
+      "command": "uname -a"
+    },
+    {
+      "name": "Run Custom Script",
+      "description": "Execute a custom script",
+      "script": "custom_script.sh"
+    }
+  ]
+}
